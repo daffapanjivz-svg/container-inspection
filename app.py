@@ -1,11 +1,3 @@
-import os
-os.environ["YOLO_VERBOSE"] = "False"
-
-# Force headless cv2 sebelum ultralytics load
-import importlib, sys
-if "cv2" not in sys.modules:
-    import cv2  # noqa
-    
 import streamlit as st
 from ultralytics import YOLO
 import cv2  # langsung
