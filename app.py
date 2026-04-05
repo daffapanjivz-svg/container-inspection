@@ -1,3 +1,4 @@
+import cv2  # langsung
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
